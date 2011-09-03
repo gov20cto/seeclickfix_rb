@@ -2,7 +2,7 @@
 require File.expand_path('../lib/seeclickfix/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = 'seeflickfix'
+  gem.name        = 'seeclickfix'
   gem.version     = SeeClickFix::VERSION
   gem.author      = "Ryan Resella"
   gem.email       = 'ryan@codeforamerica.org'
@@ -24,7 +24,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency 'addressable', '~> 2.2.6'
   gem.add_runtime_dependency 'faraday', '~> 0.6.0'
   gem.add_runtime_dependency 'faraday_middleware', '~> 0.6.0'
-  gem.add_runtime_dependency 'hashie', '~> 1.0.0'
+  gem.add_runtime_dependency 'hashie', '=> 1.1.0'
   gem.add_runtime_dependency 'multi_json', '~> 1.0.2'
   gem.add_runtime_dependency 'rash', '~> 0.3.0'
 end
